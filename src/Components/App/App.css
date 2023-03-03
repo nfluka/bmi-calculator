@@ -1,0 +1,24 @@
+:root {
+
+  --color-primary:  hsl(138, 56%, 30%);
+  --color-primary-darker: hsl(138, 56%, 25%);
+  --color-warning: hsl(0, 75%, 28%);
+  --color-warning-light: hsl(0, 75%, 80%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1.2rem;
+}
+
+.App {
+  padding: 2.5rem;
+  border-radius: 8px;
+  border: 1px solid #f3f3f3;
+  color: rgb(34, 34, 34);
+  box-shadow: rgb(84, 116, 151) 0px 20px 30px -10px;
+}
+

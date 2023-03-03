@@ -1,0 +1,60 @@
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: .8rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #c0c0c0;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  form div {
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-calculate {
+    padding: 1rem;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .btn-calculate:hover {
+    background-color: var(--color-primary-darker);
+    cursor: pointer;
+  }
+  
+  .btn-calculate:focus, input:focus {
+    outline: 4px solid hsla(0, 0%, 0%, 0.80);
+  }
+  
+  .error {
+   color: var(--color-warning);
+   background: var(--color-warning-light);
+   padding: 1rem;
+   border-radius: 4px;
+   text-align: center;
+  }
